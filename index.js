@@ -4,7 +4,7 @@ function Scooter(year, color, model) {
   this.color = model
 }
 
-let samson = new Scooter(2015, "red", "swoosh")
+let samson = new Scooter(2015, "red", "swoosh");
 
 /*describe('Scooter constructor', function(){
     it("should create a new scooter with three properties", function(){
