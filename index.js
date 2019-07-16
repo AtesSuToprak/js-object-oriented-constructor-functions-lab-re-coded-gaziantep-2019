@@ -6,18 +6,16 @@ function Scooter(year, color, model) {
 
 let samson = new Scooter(2015, "red", "swoosh");
 
-/*describe('Scooter constructor', function(){
-    it("should create a new scooter with three properties", function(){
-      let samson = new Scooter(2015, "red", "swoosh");
-      expect(samson).to.be.an.instanceof(Scooter);
-      expect(samson.year).to.equal(2015);
-      expect(samson.color).to.equal("red");
-      expect(samson.model).to.equal("swoosh");
-    });
+function Driver (name, age, experience) {
+  this.name = name
+  this.age = age
+  this.experience = experience
+}
 
-  });
+let allison = new Driver("Allison", "16 years", "2 years");
 
-  describe('Driver constructor', function(){
+
+/*describe('Driver constructor', function(){
     it("should create a new driver with three properties", function(){
       let allison = new Driver("Allison", "16 years", "2 years");
       expect(allison).to.be.an.instanceof(Driver);
